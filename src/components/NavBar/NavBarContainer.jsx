@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Logo } from "../Logo/Logo";
-import NavBarCSS from "./Navbar.module.css";
+import NavBarCSS from "./NavBar.module.css";
 
 export const NavbarContainer = () => {
   const [menuOpen, setMenuOpen] = useState(false);

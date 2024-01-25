@@ -91,6 +91,7 @@ nav .menu {
   }
 
   .navBarContainer ul a:hover{
+    transition: 0.2s ease all;
     background-color: lightgrey;
   }
 
