@@ -1,5 +1,5 @@
 .ProductsContainer{
-  padding: 40px;
+  padding: 60px;
   width: 100%;
   height: 100%;
   display: flex;
@@ -14,7 +14,7 @@
   align-items: center;
   justify-content: center;
   width: 30%;
-  color: whitesmoke;
+  color: rgb(205, 205, 205);
 }
 
 .titleBold{
@@ -34,7 +34,7 @@
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
-  width: 40%;
+  width: 50%;
   height: 100%
 }
 
@@ -55,7 +55,7 @@
   width: 250px;
   height: 250px;
   padding: 20px;
-  background-color: white;
+  background-color:  rgb(226, 226, 226);
   border-radius: 40px;
 }
 
@@ -68,7 +68,7 @@
   padding: 15px 0px;
   font-size: 20px;
   font-family: NexaBold;
-  color: whitesmoke;
+  color: rgb(205, 205, 205);
 }
 
 @media screen and (max-width:768px) {
@@ -78,5 +78,26 @@
 
   .ProductsTitle{
     padding: 40px 0px;
+  }
+
+  .cardContainer{
+    width: 180px;
+  }
+
+  .imgWrapper{
+    width: 200px;
+  }
+
+  .cardIMG img{
+    border-radius: 10px;
+    width: 100%;
+  }
+
+  .titleBold{
+    font-size: 10vw;
+  }
+
+  .titleLight{
+    font-size: 10vw;
   }
 }

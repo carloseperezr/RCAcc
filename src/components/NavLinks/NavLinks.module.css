@@ -1,3 +1,14 @@
 .navLink{
+  color: rgb(173, 173, 173);
+  background-color: transparent;
+  border: none;
+  font-family: sans-serif;
+  font-weight: 16px;
+  padding: 5px 10px;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+.navLink:hover{
   color: whitesmoke;
 }

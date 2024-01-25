@@ -29,11 +29,12 @@
 .navBarContainer ul li a {
   display: block;
   text-decoration: none;
-  color: lightgray;
+  color: rgb(168, 168, 168);
   padding: 0.5rem;
   margin: 0 0.5rem;
   border-radius: 0.5rem;
   font-family: sans-serif;
+  
 }
 
 .navBarContainer ul li a:hover {
@@ -90,7 +91,7 @@ nav .menu {
     background-color: rgba(245, 245, 245, 0.676);
   }
 
-  .navBarContainer ul a:hover{
+  .navBarContainer ul button:hover{
     transition: 0.2s ease all;
     background-color: lightgrey;
   }
@@ -100,12 +101,12 @@ nav .menu {
       backdrop-filter: blur(50px);
   }
 
-  .navBarContainer ul li {
+  .navBarContainer ul button {
       width: 100%;
       text-align: center;
   }
 
-  .navBarContainer ul li a {
+  .navBarContainer ul button{
       margin: 0.2rem 0.5rem;
       color: rgb(53, 53, 53);
   }

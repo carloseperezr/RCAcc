@@ -43,6 +43,17 @@
   font-size: 18px;
   padding-top: 10px;
   font-family: NexaLight;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.iconLogo{
+  width: 64px;
+}
+
+.iconLogo img{
+  width: 100%;
 }
 
 @media screen and (max-width:768px) {

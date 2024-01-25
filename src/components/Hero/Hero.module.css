@@ -39,7 +39,7 @@
   width: 70%;
   font-family: NexaLight;
   font-size: 32px;
-  color: rgba(255, 255, 255, 1) !important;
+  color: rgb(205, 205, 205);
   background: none;
   opacity: 1;
 }
@@ -53,7 +53,7 @@
 }
 
 .heroFigures span{
-  background-color: red;
+  background-color: #DD0707;
 }
 
 .span1 {

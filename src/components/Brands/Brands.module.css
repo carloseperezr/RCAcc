@@ -9,7 +9,7 @@
 }
 
 .brand1, .brand2 {
-  max-width: 90%;
+  max-width: 40vw;
   overflow: hidden;
 }
 
@@ -33,4 +33,12 @@
   justify-content: center;
   background-color: transparent;
   margin-bottom: 150px;
+}
+
+@media screen and (max-width: 768px){
+  
+.brand1, .brand2 {
+  max-width: 90vw;
+  overflow: hidden;
+}
 }
