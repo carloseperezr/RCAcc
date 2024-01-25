@@ -14,7 +14,7 @@ function App() {
   const heroRef = useRef(null);
   const aboutRef = useRef(null);
   const brandsRef = useRef(null);
-  const productsRef = useRef(null);
+  const productRef = useRef(null);
   const contactRef = useRef(null);
 
   useEffect(() => {
@@ -24,7 +24,7 @@ function App() {
         { ref: heroRef, name: "hero" },
         { ref: aboutRef, name: "about" },
         { ref: brandsRef, name: "brands" },
-        { ref: productsRef, name: "products" },
+        { ref: productRef, name: "products" },
         { ref: contactRef, name: "contact" },
       ];
 
@@ -53,7 +53,7 @@ function App() {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, [heroRef, aboutRef, brandsRef, productsRef, contactRef]);
+  }, [heroRef, aboutRef, brandsRef, productRef, contactRef]);
 
   const scrollToSection = (sectionRef) => {
     if (sectionRef && sectionRef.current) {
@@ -68,14 +68,14 @@ function App() {
         heroRef={heroRef}
         aboutRef={aboutRef}
         brandsRef={brandsRef}
-        productsRef={productsRef}
+        productRef={productRef}
         contactRef={contactRef}
       />
       <HeroContainer ref={heroRef} />
       <AboutComponent ref={aboutRef} />
       <BrandsContainer ref={brandsRef} />
-      <ProductsContainer ref={productsRef} />
-      <WhatsAppButton phoneNumber={"3196756495"} />
+      <ProductsContainer ref={productRef} />
+      <WhatsAppButton phoneNumber={"1 786 862 3868"} />
       <FooterContainer ref={contactRef} />
     </>
   );

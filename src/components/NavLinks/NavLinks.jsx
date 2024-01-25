@@ -6,7 +6,7 @@ export const NavLinks = ({
   heroRef,
   aboutRef,
   brandsRef,
-  productsRef,
+  productRef,
   contactRef,
 }) => {
   return (
@@ -22,7 +22,7 @@ export const NavLinks = ({
           onClick={() => scrollToSection(aboutRef)}
           className={`${NavCSS.navLink}`}
         >
-          CONOCENOS
+          CONÓCENOS
         </button>
         <button
           onClick={() => scrollToSection(brandsRef)}
@@ -31,7 +31,7 @@ export const NavLinks = ({
           MARCAS
         </button>
         <button
-          onClick={() => scrollToSection(productsRef)}
+          onClick={() => scrollToSection(productRef)}
           className={`${NavCSS.navLink}`}
         >
           PRODUCTOS
@@ -40,7 +40,7 @@ export const NavLinks = ({
           onClick={() => scrollToSection(contactRef)}
           className={`${NavCSS.navLink}`}
         >
-          CONTACTANOS
+          CONTÁCTANOS
         </button>
       </div>
     </>

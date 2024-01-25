@@ -8,7 +8,7 @@ export const NavbarContainer = ({
   heroRef,
   aboutRef,
   brandsRef,
-  productsRef,
+  productRef,
   contactRef,
 }) => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -32,7 +32,7 @@ export const NavbarContainer = ({
           heroRef={heroRef}
           aboutRef={aboutRef}
           brandsRef={brandsRef}
-          productsRef={productsRef}
+          productRef={productRef}
           contactRef={contactRef}
         />
       </ul>
