@@ -37,6 +37,10 @@
 
 @media screen and (max-width: 768px){
   
+  .brand1{
+    margin-left: 40px;
+  }
+
 .brand1, .brand2 {
   max-width: 90vw;
   overflow: hidden;

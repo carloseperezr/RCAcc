@@ -26,7 +26,7 @@
  list-style: none; 
 }
 
-.navBarContainer ul li a {
+.navBarContainer ul li button {
   display: block;
   text-decoration: none;
   color: rgb(168, 168, 168);
@@ -88,7 +88,7 @@ nav .menu {
     flex-direction: column;
     width: 100%;
     margin-bottom: 0.25rem;
-    background-color: rgba(245, 245, 245, 0.676);
+    background-color: rgba(196, 196, 196, 0.905);
   }
 
   .navBarContainer ul button:hover{
