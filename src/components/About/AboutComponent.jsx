@@ -8,7 +8,7 @@ const AboutComponent = React.forwardRef((props, ref) => {
       <Slide direction="up" triggerOnce={true}>
         <div className={`${AboutCSS.textWrapper}`}>
           <div className={`${AboutCSS.aboutTitle}`}>
-            <h1>Conócenos</h1>
+            <h1>RCAutoacc</h1>
           </div>
           <div className={`${AboutCSS.aboutText}`}>
             <p>

@@ -2,10 +2,10 @@ import React, { useRef } from "react";
 import ProductsCC from "./Products.module.css";
 import { ProductsCards } from "./ProductsCards";
 import { Fade } from "react-awesome-reveal";
-import BarraLed from "../../../public/images/Barra_luz_LED7.png";
-import Alarma from "../../../public/images/alarma_advertencia.png";
-import Stops from "../../../public/images/Stops_Led_Traseros.png";
-import LuzLED from "../../../public/images/Luz_Led_Vehículos.png";
+import BarraLed from "/images/Barra_luz_LED7.png";
+import Alarma from "/images/alarma_advertencia.png";
+import Stops from "/images/Stops_Led_Traseros.png";
+import LuzLED from "/images/Luzledcarros.png";
 
 export const ProductsContainer = React.forwardRef((props, ref) => {
   return (

@@ -75,7 +75,7 @@ function App() {
       <AboutComponent ref={aboutRef} />
       <BrandsContainer ref={brandsRef} />
       <ProductsContainer ref={productRef} />
-      <WhatsAppButton phoneNumber={"1 786 862 3868"} />
+      <WhatsAppButton phoneNumber={17868623868} />
       <FooterContainer ref={contactRef} />
     </>
   );
